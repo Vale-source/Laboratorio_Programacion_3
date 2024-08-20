@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico HTML</title>
+</head>
+<body>
+    <!-- En este archivo hice todos los ejercicios que pedia el practico -->
+    <!-- Encabezados -->
+    <div>
+        <h1><b>Encabezado con h1</b></h1>
+        <h2><strong>Encabezado con h2</strong></h2>
+        <h3><em>Encabezado con h3</em></h3>
+        <h4><mark>Encabezado con h4</mark></h4>
+        <h5><span>Encabezado con h5</span></h5>
+        <h6><u>Encabezado con h6</u></h6>
+    </div>
+
+    <!-- Parrafos y divs-->
+    <div>
+        <h2><b>Divisiones y agrupacion de contenido</b></h2>
+
+        <div>
+            <h4><u>Seccion 1</u></h4>
+            <p>Primera seccion agrupada en un div</p>
+        </div>
+
+        <div>
+            <h4><u>Seccion 2</u></h4>
+            <p>Segunda seccion agrupada en un div</p>
+        </div>
+    </div>
+
+    <!-- Enlaces y listas -->
+    <div>
+        <nav>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/HTML" target="_blank">Conoce mas sobre HTML</a></li>
+                <li><a href="/Ejercicios/link_interno1.html">Conoce nuestra pagina</a></li>
+                <li><a href="/Ejercicios/link_interno2.html">Siguenos en nuestras redes</a></li>
+                <li><a href="/Ejercicios/table.html">Accede a la tabla</a></li>
+            </ul>
+        </nav>
+
+        <ul>
+            <li>Primer elemento de una lista desordenada</li>
+            <li>Segundo elemento de una lista desordenada</li>
+        </ul>
+
+        <ol>
+            <li>Primer elemento de una lista ordenada</li>
+            <li>Segundo elemento de una lista ordenada</li>
+        </ol>
+    </div>
+
+    <!-- Contenido multimedia -->
+    <div>
+    <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" alt="Foto de mario bros" width="400px" height="400px"><br>
+    <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="400px" height="400px"></video><br>
+    <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    </div>
+
+    <!-- Formularios -->
+    <form>
+        <div>
+            <label for="gmail">Email</label>
+            <input type="email" name="correo electronico" id="gmail" placeholder="example@example.com">    
+        </div>
+        
+        <div>
+            <label for="user">Nombre</label>
+            <input type="text" name="nombre" id="user" placeholder="Ingrese su nombre">
+    
+        </div>
+
+        <div>
+            <label for="surname">Apellido</label>
+            <input type="text" name="apellido" id="surname" placeholder="Ingrese su apellido">    
+        </div>
+
+        <div>
+            <label for="age">Edad</label>
+            <input type="number" name="age" id="age" placeholder="Ingrese su edad">    
+        </div>
+
+        <div>
+            <label for="message">Mensaje</label>
+            <textarea name="mensaje" id="message"></textarea>
+        </div>
+
+        <button type="submit">Enviar formulario</button>
+    </form>
+
+</body>
+</html>
